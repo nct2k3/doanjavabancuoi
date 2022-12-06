@@ -23,7 +23,7 @@ import modun.singleFlower;
  */
 public class ViewAdmin extends javax.swing.JFrame {
     
-    private ViewLogin vLogin;
+    private ViewLogin_1 vLogin;
     private List<listFlower> list = new ArrayList<>();
     private List<listFlower> listImport = new ArrayList<>();
     private List<listFlower> listExport = new ArrayList<>();
@@ -1117,7 +1117,7 @@ public class ViewAdmin extends javax.swing.JFrame {
         DeletePetalsFlower.setText(petalsF);
     }
     private void btnLogoutMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnLogoutMouseClicked
-        vLogin = new ViewLogin();
+        vLogin = new ViewLogin_1();
         this.setVisible(false);
         vLogin.setVisible(true);
     }//GEN-LAST:event_btnLogoutMouseClicked
